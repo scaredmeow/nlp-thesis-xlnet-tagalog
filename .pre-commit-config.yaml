@@ -10,7 +10,6 @@ repos:
       - id: requirements-txt-fixer
       - id: check-added-large-files
       - id: detect-private-key
-      - id: pretty-format-json
 
   - repo: https://github.com/psf/black
     rev: 23.3.0
