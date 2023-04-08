@@ -1,0 +1,17 @@
+# Dev Tools
+pre-commit
+pytest
+black
+flake8
+
+
+# Python Notebook Kernel
+ipykernel
+
+# Dataframe
+pandas
+dask
+
+# Crawler
+requests
+
