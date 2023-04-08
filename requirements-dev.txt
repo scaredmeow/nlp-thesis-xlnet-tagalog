@@ -1,7 +1,5 @@
-# Dev Tools
-pre-commit
-pytest
 black
+dask
 flake8
 
 
@@ -10,7 +8,9 @@ ipykernel
 
 # Dataframe
 pandas
-dask
+# Dev Tools
+pre-commit
+pytest
 
 # Crawler
 requests
