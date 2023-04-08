@@ -1,9 +1,10 @@
-# Title of the Project
+# nlp-thesis-xlnet-tagalog
 
-Description of the project, this serve as a guide for the user to understand what the project is about.
+This is a repository for my thesis project on NLP using XLNet. The project is a part of my thesis in the Undergraduate Bachelor's Degree at Pamantasan ng Lungsod ng Maynila.
 
 ## Objective
-Objective of the project, this serve as a guide for the user to understand what the project is trying to achieve.
+
+The objective of this project is to create a model that can classify Tagalog and Taglish customer reviews into their neutral, negative, and positive reviews.
 
 ## Project Structure
 
@@ -22,10 +23,12 @@ Objective of the project, this serve as a guide for the user to understand what 
     └── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g. generated with `pip freeze > requirements.txt`
 
 ## Tech Stack Used
+
 ![Jupyter Notebook](https://img.shields.io/badge/-Jupyter%203-%232c3e50?style=for-the-badge&logo=Jupyter)
 ![Python](https://img.shields.io/badge/-Python%203-%232c3e50?style=for-the-badge&logo=Python)
 
 ## Prerequisites
+
 - [Python 3](https://www.python.org/downloads/) <!-- Specify the python version you are using, [Python 3.9.5](https://www.python.org/downloads/release/python-395/) is recommended. -->
 - [GIT](https://git-scm.com/downloads)
 - Packages in [`requirements.txt`](requirements.txt)
@@ -35,6 +38,7 @@ Objective of the project, this serve as a guide for the user to understand what 
 Download first [GIT](https://git-scm.com/downloads) in order to use git commands in your local machine.
 
 To get a local copy up and running follow these simple example steps.
+
 ```bash
 # cd folder/to/clone-into/
 # git clone https://github.com/scaredmeow/projec-name.git
@@ -52,36 +56,47 @@ git clone https://github.com/scaredmeow/template-py-data-project.git template-da
 ```
 
 ## Configuring your workspace
+
 1. Open a terminal *(CMD/Bash/Powershell/ZSH/etc)*
 2. Check if both python and pip is installed by typing `python --version` and `pip version`. Alternatively if this doesn't work type `python3 --version` and `pip3 --version`.
 3. Go to the directory/folder where you clone the project, and open it with your favorite code editor (preferably VS Code, but Jupyter Notebook will work as well).
 4. Open a terminal on the same directory of your project and create a virtual environment by typing the following:
+
    ```bash
    # python -m venv <env_name>
 
    python -m venv venv
     ```
+
 5. Activate your environment by using the following:
-    - **Powershell:** 
+    - **Powershell:**
+
         ```powershell
         # .\<env_name>\Scripts\activate.ps1
 
         .\venv\Scripts\activate.ps1
         ```
-    - **Bash/ZSH/Fish:**  
+
+    - **Bash/ZSH/Fish:**
+
         ```bash
         # source ./<env_name>/bin/activate
 
         source ./venv/bin/activate
         ```
+
 6. Install the requirements by typing the following:
+
    ```bash
    pip install -r requirements.txt
    ```
+
    alternatively, if this doesn't work type
+
     ```bash
     pip3 install -r requirements.txt
     ```
+
 7. Run `main.ipynb` using the created **virtual environment (venv)** as ipykernel.
 
 ## Coding Standards
@@ -122,10 +137,10 @@ pytest .
 
 To contribute to the repository through Issues or Pull Requests, see [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-
 <!-- Fix this base on your contact details -->
 
 ## Contact
+
 <a href="https://twitter.com/intent/follow?screen_name=scaredmeow_&tw_p=followbutton">
   <img src="https://img.shields.io/twitter/follow/scaredmeow_?label=Twitter&style=social" alt="github">
 </a>
