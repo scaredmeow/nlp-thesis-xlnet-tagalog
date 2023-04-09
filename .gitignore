@@ -203,4 +203,11 @@ pyrightconfig.json
 .history
 .ionide
 
+
+### Data
+data/shopee
+data/shopee/*
+data/twitter
+data/twitter/*
+
 # End of https://www.toptal.com/developers/gitignore/api/venv,data,python,visualstudiocode,jupyternotebooks

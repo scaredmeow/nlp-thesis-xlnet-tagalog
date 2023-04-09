@@ -1,7 +1,7 @@
+# Dev Tools
 black
 dask
 flake8
-
 
 # Python Notebook Kernel
 ipykernel
@@ -14,3 +14,4 @@ pytest
 
 # Crawler
 requests
+tweepy
