@@ -9,6 +9,7 @@ repos:
       - id: check-yaml
       - id: requirements-txt-fixer
       - id: check-added-large-files
+        args: ["--maxkb=10240"]
       - id: detect-private-key
 
   - repo: https://github.com/psf/black
