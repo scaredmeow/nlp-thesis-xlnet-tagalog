@@ -1,6 +1,7 @@
 # Dev Tools
 black
 dask
+dataprep
 flake8
 
 # Python Notebook Kernel
@@ -8,9 +9,11 @@ ipykernel
 
 # Dataframe
 pandas
+
 # Dev Tools
 pre-commit
 pytest
+python-dotenv
 
 # Crawler
 requests
