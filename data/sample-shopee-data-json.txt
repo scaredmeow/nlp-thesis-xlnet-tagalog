@@ -1,0 +1,273 @@
+// Keys
+
+dict_keys = [
+    "orderid",
+    "itemid",
+    "cmtid",
+    "ctime",
+    "rating",
+    "userid",
+    "shopid",
+    "comment",
+    "rating_star",
+    "status",
+    "mtime",
+    "editable",
+    "opt",
+    "filter",
+    "mentioned",
+    "is_hidden",
+    "author_username",
+    "author_portrait",
+    "author_shopid",
+    "anonymous",
+    "images",
+    "videos",
+    "product_items",
+    "delete_reason",
+    "delete_operator",
+    "ItemRatingReply",
+    "tags",
+    "editable_date",
+    "show_reply",
+    "like_count",
+    "liked",
+    "sync_to_social",
+    "detailed_rating",
+    "exclude_scoring_due_low_logistic",
+    "loyalty_info",
+    "template_tags",
+    "has_template_tag",
+    "sync_to_social_toggle",
+    "sip_info",
+    "is_repeated_purchase",
+    "display_variation_filter",
+    "overall_fit",
+    "is_normal_item",
+    "viewed",
+    "show_view",
+    "sync_to_social_detail",
+    "profile",
+    "size_info_tags",
+    "size_info_abt",
+    "image_data",
+    "key_media",
+    "is_super_review",
+    "super_reviewer_tag",
+    "is_newly_created",
+    "template_hints",
+    "template_tags_hints",
+]
+
+
+{
+    "orderid": 132380955291499,
+    "itemid": 5541866137,
+    "cmtid": 11148306687,
+    "ctime": 1680407978,
+    "rating": 1,
+    "userid": 458113431,
+    "shopid": 78369718,
+    "comment": "Colour:Black\nMaterial Quality:Good Quality\n\nTrue to size, and color. Maganda ang kulay, tela at malambot hindi rin mainit kapag suot, mabilis dumating ang item.",
+    "rating_star": 5,
+    "status": 2,
+    "mtime": 1680527481,
+    "editable": 2,
+    "opt": 2,
+    "filter": 7,
+    "mentioned": None,
+    "is_hidden": False,
+    "author_username": "p*****a",
+    "author_portrait": "7fd9b1842d0ba722c1eed523baa90849",
+    "author_shopid": 458093854,
+    "anonymous": True,
+    "images": [
+        "ph-11134103-7qul4-lf3iy03evzm6d8",
+        "ph-11134103-7qul2-lf3j1aehsrkk3b",
+        "ph-11134103-7qul2-lf3j2enev0um92",
+        "ph-11134103-7qul5-lf3j350caefoa3",
+        "ph-11134103-7qul5-lf3j3zxt0yku4e"
+    ],
+    "videos": [
+        {
+            "id": "ph-11110103-6jrnm-lf3izm3c0kjy01",
+            "cover": "https://down-ws-sg.img.susercontent.com/ph-11110103-23040-p66ash10sdpv77",
+            "url": "https://play-ws.vod.shopee.com/api/v4/11110103/mms/ph-11110103-6jrnm-lf3izm3c0kjy01.ori.mp4",
+            "duration": 22291,
+            "upload_time": None,
+            "mms_ext": {
+                "vid": "ph-11110103-6jrnm-lf3izm3c0kjy01"
+            },
+            "biz": 103,
+            "duration": 22291,
+            "create_time": 1680407771,
+            "serviceID": 2,
+            "cover": "https://down-ws-sg.img.susercontent.com/ph-11110103-23040-p66ash10sdpv77",
+            "cover_list": null,
+            "formats": [
+                {
+                    "format": 1600046,
+                    "defn": "V480P",
+                    "profile": "MP4",
+                    "path": "api/v4/11110103/mms/ph-11110103-6jrnm-lf3izm3c0kjy01.16000461680407791.mp4",
+                    "url": "",
+                    "width": 480,
+                    "height": 854,
+                    "bitrate": 541644,
+                    "size": 1784977,
+                    "fps": 25.04505,
+                    "duration": 22294,
+                    "update_time": 1680407800
+                },
+                {
+                    "format": 1600005,
+                    "defn": "V640P",
+                    "profile": "MP4",
+                    "path": "api/v4/11110103/mms/ph-11110103-6jrnm-lf3izm3c0kjy01.16000051680407774.mp4",
+                    "url": "",
+                    "width": 640,
+                    "height": 1138,
+                    "bitrate": 728226,
+                    "size": 2308574,
+                    "fps": 25.04505,
+                    "duration": 22291,
+                    "update_time": 1680407790
+                }
+            ],
+            "default_format": {
+                "format": 600001,
+                "defn": "ORI",
+                "profile": "MP4",
+                "path": "",
+                "url": "https://play-ws.vod.shopee.com/api/v4/11110103/mms/ph-11110103-6jrnm-lf3izm3c0kjy01.ori.mp4",
+                "width": 720,
+                "height": 1280,
+                "bitrate": 1733662,
+                "size": 5189410,
+                "fps": 19.04524,
+                "duration": 22291,
+                "update_time": 1680407773
+            },
+            "extend_formats": {
+                "H265": [
+                    {
+                        "format": 1600304,
+                        "defn": "V480P",
+                        "profile": "MP4",
+                        "path": "api/v4/11110103/mms/ph-11110103-6jrnm-lf3izm3c0kjy01.16003041680407791.mp4",
+                        "url": "",
+                        "width": 480,
+                        "height": 854,
+                        "bitrate": 371555,
+                        "size": 1321314,
+                        "fps": 25.04505,
+                        "duration": 22245,
+                        "update_time": 1680407817
+                    },
+                    {
+                        "format": 1600308,
+                        "defn": "V640P",
+                        "profile": "MP4",
+                        "path": "api/v4/11110103/mms/ph-11110103-6jrnm-lf3izm3c0kjy01.16003081680407791.mp4",
+                        "url": "",
+                        "width": 640,
+                        "height": 1138,
+                        "bitrate": 589655,
+                        "size": 2015614,
+                        "fps": 25.04505,
+                        "duration": 22245,
+                        "update_time": 1680407827
+                    }
+                ]
+            },
+            "ab_test": ""
+        },
+        {
+            "cover_image_id": ""
+        }
+    ],
+    "product_items": [
+        {
+            "itemid": 5541866137,
+            "shopid": 78369718,
+            "name": "Trendy Fashionable Cotton Jogger Pants For Men 5 Colors Good Quality JF09",
+            "image": "d232b7d5bb3a41c907409a04882b5371",
+            "is_snapshot": 1,
+            "snapshotid": 5403898115,
+            "modelid": 70259468834,
+            "model_name": "Black,M",
+            "options": [
+                "Black",
+                "M"
+            ]
+        }
+    ],
+    "delete_reason": None,
+    "delete_operator": None,
+    "ItemRatingReply": None,
+    "tags": None,
+    "editable_date": 1682999978,
+    "show_reply": None,
+    "like_count": 1,
+    "liked": None,
+    "sync_to_social": False,
+    "detailed_rating": {
+        "product_quality": 5,
+        "seller_service": 5,
+        "delivery_service": 5
+    },
+    "exclude_scoring_due_low_logistic": False,
+    "loyalty_info": None,
+    "template_tags": [
+        "Colour",
+        "Material Quality",
+        "Appearance"
+    ],
+    "has_template_tag": True,
+    "sync_to_social_toggle": None,
+    "sip_info": {
+        "is_oversea": False,
+        "origin_region": "ph"
+    },
+    "is_repeated_purchase": False,
+    "display_variation_filter": True,
+    "overall_fit": 2,
+    "is_normal_item": True,
+    "viewed": None,
+    "show_view": None,
+    "sync_to_social_detail": None,
+    "profile": None,
+    "size_info_tags": None,
+    "size_info_abt": "",
+    "image_data": [
+        {
+            "image_id": "ph-11134103-7qul4-lf3iy03evzm6d8",
+            "cover_image_id": "ph-11134103-7qul4-lf3iy03evzm6d8"
+        },
+        {
+            "image_id": "ph-11134103-7qul2-lf3j1aehsrkk3b",
+            "cover_image_id": "ph-11134103-7qul2-lf3j1aehsrkk3b"
+        },
+        {
+            "image_id": "ph-11134103-7qul2-lf3j2enev0um92",
+            "cover_image_id": "ph-11134103-7qul2-lf3j2enev0um92"
+        },
+        {
+            "image_id": "ph-11134103-7qul5-lf3j350caefoa3",
+            "cover_image_id": "ph-11134103-7qul5-lf3j350caefoa3"
+        },
+        {
+            "image_id": "ph-11134103-7qul5-lf3j3zxt0yku4e",
+            "cover_image_id": "ph-11134103-7qul5-lf3j3zxt0yku4e"
+        }
+    ],
+    "key_media": {
+        "key_media_code": 0,
+        "key_media_id": ""
+    },
+    "is_super_review": False,
+    "super_reviewer_tag": None,
+    "is_newly_created": None,
+    "template_hints": None,
+    "template_tags_hints": None
+}
