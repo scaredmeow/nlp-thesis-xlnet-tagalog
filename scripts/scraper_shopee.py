@@ -1,6 +1,7 @@
 import re
 import requests
 import pandas as pd
+import os
 
 
 class ShopeeAPI:
@@ -49,6 +50,9 @@ class ShopeeAPI:
         while True:
             if len(self.url_list) == idx:
                 break
+            if os.path.exists(self.dir + "/" + str(idx) + ".csv"):
+                idx += 1
+                continue
             data = requests.get(ratings_url.format(shop_id=shop_ids[idx], item_id=item_ids[idx], offset=offset)).json()
 
             i = 1
