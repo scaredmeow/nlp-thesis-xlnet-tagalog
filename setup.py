@@ -1,3 +1,3 @@
 from setuptools import setup
 
-setup(name="nlp-thesis-xlnet-tagalog", packages=["scripts"])
+setup(name="project-scripts", packages=["scripts"])
