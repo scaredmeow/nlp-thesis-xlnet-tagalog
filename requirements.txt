@@ -28,6 +28,7 @@ debugpy==1.6.7
 decorator==5.1.1
 defusedxml==0.7.1
 distlib==0.3.6
+emoji==2.2.0
 exceptiongroup==1.1.1
 executing==0.8.3
 fastjsonschema==2.16.3
@@ -64,6 +65,7 @@ jupyter_server_terminals==0.4.4
 jupyterlab-pygments==0.2.2
 jupyterlab-widgets==1.1.4
 kiwisolver==1.4.4
+lingua==4.15.0
 locket==1.0.0
 MarkupSafe==2.1.2
 matplotlib==3.7.1
@@ -95,6 +97,7 @@ Pillow==9.5.0
 platformdirs==3.2.0
 pluggy==1.0.0
 ply==3.11
+polib==1.2.0
 pre-commit==3.2.2
 prometheus-client==0.16.0
 prompt-toolkit==3.0.38

@@ -1,19 +1,22 @@
 # Dev Tools
 black
-dask
-dataprep
 flake8
+pre-commit
+pytest
+python-dotenv
 
 # Python Notebook Kernel
 ipykernel
 
 # Dataframe
 pandas
+dask
 
-# Dev Tools
-pre-commit
-pytest
-python-dotenv
+# EDA - Processing
+dataprep
+emoji
+lingua
+
 
 # Crawler
 requests
