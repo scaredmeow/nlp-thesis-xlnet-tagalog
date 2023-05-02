@@ -15,8 +15,7 @@ dask
 # EDA - Processing
 dataprep
 emoji
-lingua
-
+langdetect
 
 # Crawler
 requests
