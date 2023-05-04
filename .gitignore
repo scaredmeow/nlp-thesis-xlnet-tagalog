@@ -209,5 +209,7 @@ data/shopee
 data/shopee/*
 data/twitter
 data/twitter/*
+data/model-data
+data/model-data/*
 
 # End of https://www.toptal.com/developers/gitignore/api/venv,data,python,visualstudiocode,jupyternotebooks
