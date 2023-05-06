@@ -1,3 +1,3 @@
 from setuptools import setup
 
-setup(name="project-scripts", packages=["scripts"])
+setup(name="my-script", packages=["scripts"])

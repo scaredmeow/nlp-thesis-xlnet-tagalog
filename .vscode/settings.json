@@ -33,7 +33,9 @@
     "**/nlp_thesis_xlnet_tagalog.egg-info": true,
     "*.egg-info": true,
     "nlp_thesis_xlnet_tagalog.egg-info": true,
-    "**/*.egg-info": true
+    "**/*.egg-info": true,
+    "**/.mypy_cache": true,
+    ".mypy_cache": true
   },
   "explorerExclude.backup": {}
 }
