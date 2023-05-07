@@ -17,6 +17,6 @@ dataprep
 emoji
 langdetect
 
-# Crawler
-requests
-tweepy
+# Modeling
+transformers
+transformers[tf-cpu]
