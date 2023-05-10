@@ -3,7 +3,6 @@ black
 flake8
 pre-commit
 pytest
-python-dotenv
 
 # Python Notebook Kernel
 ipykernel
@@ -16,6 +15,8 @@ dask
 dataprep
 emoji
 langdetect
+spacy
+nltk
 
 # Modeling
 transformers
