@@ -12,12 +12,14 @@ pandas
 dask
 
 # EDA - Processing
-dataprep
 emoji
 langdetect
-spacy
 nltk
+scikit-learn
+
 
 # Modeling
 transformers
-transformers[tf-cpu]
+transformers[torch]
+datasets
+evaluate
