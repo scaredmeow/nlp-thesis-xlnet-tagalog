@@ -213,7 +213,9 @@ data/model-data
 data/model-data/*
 
 ## trainer
-*/test_trainer/
+*/benchmark*/
+*/wandb/
+*/cache*
 
 
 # End of https://www.toptal.com/developers/gitignore/api/venv,data,python,visualstudiocode,jupyternotebooks
