@@ -23,3 +23,6 @@ transformers
 transformers[torch]
 datasets
 evaluate
+wandb
+zstandard
+sentencepiece
