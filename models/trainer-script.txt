@@ -1,0 +1,21 @@
+python benchmark-trainer/train.py \
+    --pretrained jcblaise/roberta-tagalog-base \
+    --train_data ../data/dataset/train.csv \
+    --valid_data ../data/dataset/validation.csv \
+    --test_data ../data/dataset/test.csv \
+    --data_pct 1.0 \
+    --checkpoint finetuned_model \
+    --do_train true \
+    --do_eval true \
+    --msl 128 \
+    --optimizer adam \
+    --batch_size 32 \
+    --weight_decay 1e-8 \
+    --learning_rate 2e-4 \
+    --adam_epsilon 1e-6 \
+    --warmup_pct 0.1 \
+    --epochs 3 \
+    --seed 42 \
+    --use_wandb true \
+    --wandb_project_name finetuning \
+    --wandb_username scaredmeow
