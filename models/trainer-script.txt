@@ -1,15 +1,15 @@
 python benchmark-trainer/train.py \
-    --pretrained jcblaise/roberta-tagalog-base \
-    --train_data ../data/dataset/train.csv \
-    --valid_data ../data/dataset/validation.csv \
-    --test_data ../data/dataset/test.csv \
+    --pretrained scaredmeow/xlnet-tagalog-base \
+    --train_data ../data/hatespeech/train.csv \
+    --valid_data ../data/hatespeech/valid.csv \
+    --test_data ../data/hatespeech/test.csv \
     --data_pct 1.0 \
-    --checkpoint finetuned_model \
+    --checkpoint finetuned-hatespeech-xlnet-no-tokens \
     --do_train true \
     --do_eval true \
     --msl 128 \
     --optimizer adam \
-    --batch_size 32 \
+    --batch_size 36 \
     --weight_decay 1e-8 \
     --learning_rate 2e-4 \
     --adam_epsilon 1e-6 \
@@ -17,5 +17,28 @@ python benchmark-trainer/train.py \
     --epochs 3 \
     --seed 42 \
     --use_wandb true \
-    --wandb_project_name finetuning \
+    --wandb_project_name finetuning-hatespeech \
+    --wandb_username scaredmeow
+
+python benchmark-trainer/train.py \
+    --pretrained scaredmeow/xlnet-tagalog-base \
+    --train_data ../data/hatespeech/train.csv \
+    --valid_data ../data/hatespeech/valid.csv \
+    --test_data ../data/hatespeech/test.csv \
+    --data_pct 1.0 \
+    --checkpoint finetuned-hatespeech-xlnet \
+    --do_train true \
+    --do_eval true \
+    --msl 128 \
+    --optimizer adam \
+    --batch_size 24 \
+    --add_token [LINK],[MENTION],[HASHTAG] \
+    --weight_decay 1e-8 \
+    --learning_rate 2e-4 \
+    --adam_epsilon 1e-6 \
+    --warmup_pct 0.1 \
+    --epochs 3 \
+    --seed 42 \
+    --use_wandb true \
+    --wandb_project_name finetuning-hatespeech \
     --wandb_username scaredmeow
