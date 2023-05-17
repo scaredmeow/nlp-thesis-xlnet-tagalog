@@ -1,0 +1,55 @@
+> confusionMatrix(test$Label, p2) -- TEST
+Confusion Matrix and Statistics
+
+          Reference
+Prediction    0    1
+         0 2678  322
+         1  275 2725
+
+               Accuracy : 0.9005
+                 95% CI : (0.8926, 0.908)
+    No Information Rate : 0.5078
+    P-Value [Acc > NIR] : < 2e-16
+
+                  Kappa : 0.801
+
+ Mcnemar's Test P-Value : 0.05975
+
+            Sensitivity : 0.9069
+            Specificity : 0.8943
+         Pos Pred Value : 0.8927
+         Neg Pred Value : 0.9083
+             Prevalence : 0.4922
+         Detection Rate : 0.4463
+   Detection Prevalence : 0.5000
+      Balanced Accuracy : 0.9006
+
+       'Positive' Class : 0
+
+> confusionMatrix(train$Label, p1) -- TRAIN
+Confusion Matrix and Statistics
+
+          Reference
+Prediction     0     1
+         0 12911  1089
+         1   955 13045
+
+               Accuracy : 0.927
+                 95% CI : (0.9239, 0.93)
+    No Information Rate : 0.5048
+    P-Value [Acc > NIR] : < 2.2e-16
+
+                  Kappa : 0.854
+
+ Mcnemar's Test P-Value : 0.003263
+
+            Sensitivity : 0.9311
+            Specificity : 0.9230
+         Pos Pred Value : 0.9222
+         Neg Pred Value : 0.9318
+             Prevalence : 0.4952
+         Detection Rate : 0.4611
+   Detection Prevalence : 0.5000
+      Balanced Accuracy : 0.9270
+
+       'Positive' Class : 0
