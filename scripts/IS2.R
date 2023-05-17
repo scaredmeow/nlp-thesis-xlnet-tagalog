@@ -1,40 +1,16 @@
 library(naivebayes)
-
-# Loading of Data
-news.raw = read.csv("C:/Users/Other/Programming/Projects/fake-news-analysis/dataset/Dataset/news1.csv", stringsAsFactors = FALSE)
-
-# Looking through Data
-
-names(news.raw) = c("Label", "Text")
-news.raw$Label = as.factor(news.raw$Label)
-
-prop.table(table(news.raw$Label))
-
-# Visualizing the Text Length compared to its Label
-
-news.raw$TextLength = nchar(news.raw$Text)
-summary(news.raw$TextLength)
-View(news.raw)
-
-library(ggplot2)
-
-ggplot(news.raw, aes(x = TextLength, fill = Label)) +
-  theme_bw() +
-  xlim(0,500) +
-  geom_histogram(binwidth = 10) +
-  labs(y="Text Count", x = "Length of Text",
-       title = "Distribution of Text Length with Class Labels")
-
-# Partitioning the dataset to 70-30 distribution for train and test
-
 library(caret)
 
-set.seed(31239)
-indexes = createDataPartition(news.raw$Label, times = 1,
-                              p = 0.70, list = FALSE)
+# Loading of Data
+train = read.csv("C:/Users/neilc/dev/proj/nlp-thesis-xlnet-tagalog/data/hatespeech/train.csv", stringsAsFactors = FALSE)
+test = read.csv("C:/Users/neilc/dev/proj/nlp-thesis-xlnet-tagalog/data/hatespeech/valid.csv", stringsAsFactors = FALSE)
+# Looking through Data
 
-train = news.raw[indexes,]
-test = news.raw[-indexes,]
+names(train) = c("Text", "Label")
+train$Label = as.factor(train$Label)
+
+names(test) = c("Text", "Label")
+test$Label = as.factor(test$Label)
 
 prop.table(table(train$Label))
 prop.table(table(test$Label))
@@ -46,7 +22,7 @@ library(quanteda)
 # Train
 # Text-Preprocessing
 
-tagalogstopwords = readLines("C:/Users/Other/Programming/Projects/fake-news-analysis/dataset/Dataset/stopwords.txt",
+tagalogstopwords = readLines("C:/Users/neilc/dev/proj/nlp-thesis-xlnet-tagalog/data/stopwords.txt",
                              encoding = "UTF-8")
 tagalogstopwords
 
@@ -62,10 +38,6 @@ train.tokens.dfm = dfm(train.tokens, tolower = TRUE)
 #train.tokens.dfm = dfm_trim(train.tokens.dfm,min_termfreq = 5)
 # Cloud of Words
 
-set.seed(100)
-library(quanteda.textplots)
-textplot_wordcloud(train.tokens.dfm, min_count = 6, random_order = FALSE, rotation = 0.25,
-                   color = RColorBrewer::brewer.pal(8, "Dark2"))
 
 # Matrix
 train.tokens.matrix = as.matrix(train.tokens.dfm)
