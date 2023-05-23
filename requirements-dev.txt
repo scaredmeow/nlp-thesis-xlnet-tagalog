@@ -26,3 +26,4 @@ evaluate
 wandb
 zstandard
 sentencepiece
+ensemble-transformers
